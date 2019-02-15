@@ -11,3 +11,8 @@ import Foundation
 print("Hello, World!")
 
 // mandeeep kaur
+
+
+var s1 = Student()
+
+s1.display()

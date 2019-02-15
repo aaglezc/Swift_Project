@@ -37,6 +37,7 @@ class Person
     }
 }
 
+//next class review
 /*
  
  //when apply this technique; the oveeriding sublcass method must change to @obj

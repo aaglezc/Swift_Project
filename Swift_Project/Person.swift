@@ -8,19 +8,25 @@
 
 import Foundation
 
-class Person
-{
-    private var pId:Int
-    private var result:String
+class Person {
+    var pid: Int = 0
+    var fname: String!
+    var lname: String?
     
-    init()
-    {
-        self.pId = 0
-        self.result = "Fail"
+    init() {
+        fname = "Pritesh"
+        lname = "Patel"
     }
-    init(pId:Int, result:String)
-    {
-        self.pId = pId
-        self.result = result
+    
+    func display() {
+        print(pid)
+        //print(fname)
+        //print(lname!)
+        //let l = lname ?? "Patel"
+        if let f = fname, let l = lname {
+            let s = f + " " + l
+            print(s)
+        }
+        
     }
 }

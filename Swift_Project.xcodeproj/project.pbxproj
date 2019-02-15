@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9BE03EBE22163D1000819DD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE03EBD22163D1000819DD3 /* main.swift */; };
+		9BE03EC5221642E500819DD3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE03EC4221642E500819DD3 /* Person.swift */; };
+		9BE03EC722164E9D00819DD3 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE03EC622164E9D00819DD3 /* Student.swift */; };
+		9BE03EC922164ED200819DD3 /* Faculty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE03EC822164ED200819DD3 /* Faculty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9BE03EBA22163D1000819DD3 /* Swift_Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE03EBD22163D1000819DD3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BE03EC4221642E500819DD3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9BE03EC622164E9D00819DD3 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9BE03EC822164ED200819DD3 /* Faculty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faculty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9BE03EBD22163D1000819DD3 /* main.swift */,
+				9BE03EC4221642E500819DD3 /* Person.swift */,
+				9BE03EC622164E9D00819DD3 /* Student.swift */,
+				9BE03EC822164ED200819DD3 /* Faculty.swift */,
 			);
 			path = Swift_Project;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE03EC922164ED200819DD3 /* Faculty.swift in Sources */,
+				9BE03EC5221642E500819DD3 /* Person.swift in Sources */,
+				9BE03EC722164E9D00819DD3 /* Student.swift in Sources */,
 				9BE03EBE22163D1000819DD3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

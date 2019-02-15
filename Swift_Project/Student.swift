@@ -8,10 +8,12 @@
 
 import Foundation
 
-class Student: Person{
+class Student: Person
+{
     private var result: String
     
-    override init() {
+    override init()
+    {
         self.result = "Fail"
         super.init()
         

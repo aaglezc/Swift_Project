@@ -6,6 +6,9 @@
 //  Copyright © 2019 MacStudent. All rights reserved.
 //
 
+//Properties
+//
+
 import Foundation
 
 print("Hello, World!")
@@ -29,3 +32,21 @@ s2.display()
 
 var i: Int?
 i = nil
+
+//---------
+var str:String = "Arthur"
+print(str)
+str.sayHello()
+str.greet()
+str.greet(name: "Ash")
+str.greet(name: str)
+
+print(12.add(x: 10))
+var a = 100
+var b = 200
+print(a.add(x: b))
+print(a)
+
+print(100.currency())
+
+

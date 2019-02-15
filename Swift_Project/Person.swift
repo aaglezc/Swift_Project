@@ -8,7 +8,8 @@
 
 import Foundation
 
-class Person {
+class Person
+{
     var pid: Int = 0
     var fname: String!
     var lname: String?
@@ -29,4 +30,33 @@ class Person {
         }
         
     }
+    
+    func printData()
+    {
+        print("Protocol method in Person class")
+    }
 }
+
+/*
+ 
+ //when apply this technique; the oveeriding sublcass method must change to @obj
+extension Person : IDisplay
+{
+    func display() {
+        print(pid)
+        //print(fname)
+        //print(lname!)
+        //let l = lname ?? "Patel"
+        if let f = fname, let l = lname {
+            let s = f + " " + l
+            print(s)
+        }
+        
+    }
+    
+    func printData()
+    {
+        print("Protocol method in Person class")
+    }
+}
+*/
